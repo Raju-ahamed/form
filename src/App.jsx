@@ -1,4 +1,5 @@
 import './App.css'
+import CustomHooks from './component/CustomHooks/CustomHooks'
 import DefaultFrom from './component/defaultFrom/DefaultFrom'
 import FromSubmit from './component/fromSubmit/FromSubmit'
 import GetSubmit from './component/getSubmit/GetSubmit'
@@ -13,7 +14,8 @@ function App() {
       {/* <FromSubmit></FromSubmit> */}
       {/* <GetSubmit></GetSubmit> */}
       {/* <DefaultFrom></DefaultFrom> */}
-      <UncontrolForm></UncontrolForm>    
+      {/* <UncontrolForm></UncontrolForm>     */}
+      <CustomHooks></CustomHooks>
     </>
   )
 }
