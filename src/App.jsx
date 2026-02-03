@@ -3,6 +3,7 @@ import CustomHooks from './component/CustomHooks/CustomHooks'
 import DefaultFrom from './component/defaultFrom/DefaultFrom'
 import FromSubmit from './component/fromSubmit/FromSubmit'
 import GetSubmit from './component/getSubmit/GetSubmit'
+import ProductManagement from './component/TableUse/ProductManagement'
 import UncontrolForm from './component/UncontrolFrom/UncontrolForm'
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <GetSubmit></GetSubmit> */}
       {/* <DefaultFrom></DefaultFrom> */}
       {/* <UncontrolForm></UncontrolForm>     */}
-      <CustomHooks></CustomHooks>
+      {/* <CustomHooks></CustomHooks> */}
+      <ProductManagement></ProductManagement>
     </>
   )
 }

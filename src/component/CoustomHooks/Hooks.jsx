@@ -1,10 +1,11 @@
 import { useState } from "react"
 
-const useInputFieldValue=value=>{
-    const [fieldvalue,setFiledValue]=useState(value);
-    const handleField = e=>{
-        setFiledValue(e.target.value)
+const useInputFieldValue=filed =>{
+    const [fieldValue , setFieldValue]=useState(filed);
+    const handleSubmit=e=>{
+        e.preventDefault();
+        setFieldValue(e.target.value);
     }
-    return [fieldvalue,handleField];
+    return [fieldValue,handleSubmit];
 }
 export default useInputFieldValue;
